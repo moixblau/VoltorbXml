@@ -1,9 +1,7 @@
 ﻿using Microsoft.Win32;
-using System;
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Input;
-using System.Windows.Media.Imaging;
 using WpfAnimatedGif;
 
 namespace Voltorb
@@ -20,7 +18,7 @@ namespace Voltorb
         {
             InitializeComponent();
 
-            //Lector de puntos
+            //Ranking
             key = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\XMLTracerKiller", true);
 
             if (key.ValueCount == 0)
@@ -56,6 +54,11 @@ namespace Voltorb
             controller = ImageBehavior.GetAnimationController(explosionGif);
         }
 
+        private void image_ended(object sender, RoutedEventArgs e)
+        {
+            explosionGif.Height = 0;
+        }
+
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ClickCount == 2)
@@ -70,16 +73,21 @@ namespace Voltorb
                         sum++;
                     }
                 }
-                int sumTotalKills = int.Parse(key.GetValue("counter").ToString()) + sum;
-                key.SetValue("counter", sumTotalKills);
 
-                setTitle(sumTotalKills);
+                if (sum > 0)
+                {
+                    explosionGif.Height = 400;
+                    int sumTotalKills = int.Parse(key.GetValue("counter").ToString()) + sum;
+                    key.SetValue("counter", sumTotalKills);
 
-                gifPlay();
+                    setTitle(sumTotalKills);
+
+                    gifPlay();
+                }
             }
         }
 
-        private void gifPlay()
+        private async void gifPlay()
         {
             controller.GotoFrame(0);
             controller.Play();

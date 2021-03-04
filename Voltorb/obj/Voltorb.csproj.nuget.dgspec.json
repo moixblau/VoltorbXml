@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#Proyects\\Voltorb\\Voltorb\\Voltorb.csproj": {}
+    "D:\\C#Proyects\\Voltorb\\VoltorbXml\\Voltorb\\Voltorb.csproj": {}
   },
   "projects": {
-    "D:\\C#Proyects\\Voltorb\\Voltorb\\Voltorb.csproj": {
+    "D:\\C#Proyects\\Voltorb\\VoltorbXml\\Voltorb\\Voltorb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#Proyects\\Voltorb\\Voltorb\\Voltorb.csproj",
+        "projectUniqueName": "D:\\C#Proyects\\Voltorb\\VoltorbXml\\Voltorb\\Voltorb.csproj",
         "projectName": "Voltorb",
-        "projectPath": "D:\\C#Proyects\\Voltorb\\Voltorb\\Voltorb.csproj",
+        "projectPath": "D:\\C#Proyects\\Voltorb\\VoltorbXml\\Voltorb\\Voltorb.csproj",
         "packagesPath": "C:\\Users\\joanb\\.nuget\\packages\\",
-        "outputPath": "D:\\C#Proyects\\Voltorb\\Voltorb\\obj\\",
+        "outputPath": "D:\\C#Proyects\\Voltorb\\VoltorbXml\\Voltorb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
