@@ -1,0 +1,25 @@
+﻿<Window x:Class="Voltorb.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        
+        mc:Ignorable="d"
+        Title="voltorb" Height="400" Width="400"    
+        Topmost="true"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="{x:Null}"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    
+    <Grid>
+        <Image Stretch="None" Source="/resources/voltorb.png"/>
+        <Image x:Name="explosionGif" 
+               gif:ImageBehavior.AnimatedSource="/resources/gif.gif"
+               gif:ImageBehavior.AutoStart="false"
+               gif:ImageBehavior.RepeatBehavior="1x"
+               gif:ImageBehavior.AnimationLoaded="image_completed" />
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltorb", "Voltorb\Voltorb.csproj", "{A31E145E-8335-4314-B7C7-42BCD2272615}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31E145E-8335-4314-B7C7-42BCD2272615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31E145E-8335-4314-B7C7-42BCD2272615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31E145E-8335-4314-B7C7-42BCD2272615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31E145E-8335-4314-B7C7-42BCD2272615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89F20EC9-5BFD-49B1-B47D-A4F6C9A1BA68}
+	EndGlobalSection
+EndGlobal

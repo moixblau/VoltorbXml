@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+
+
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <IncludeSymbolsInSingleFile>true</IncludeSymbolsInSingleFile>
+    <Win32Resource></Win32Resource>
+    <ApplicationIcon>ico.ico</ApplicationIcon>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\gif.gif" />
+    <None Remove="resources\voltorb.png" />
+    <None Remove="voltorb.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\gif.gif" />
+    <Resource Include="resources\voltorb.png" />
+  </ItemGroup>
+
+</Project>

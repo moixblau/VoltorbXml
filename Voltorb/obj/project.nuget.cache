@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ARb8qD2VKBEt0VWtTmNtv3gQs0o9VZd82AW27DRrU3IKA9ZFO/8AlH4HJ2CRgB3vP0taD+Bs8z/XNvYEJ/TyNw==",
+  "success": true,
+  "projectFilePath": "D:\\C#Proyects\\Voltorb\\Voltorb\\Voltorb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joanb\\.nuget\\packages\\wpfanimatedgif\\2.0.0\\wpfanimatedgif.2.0.0.nupkg.sha512",
+    "C:\\Users\\joanb\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.12\\microsoft.netcore.app.runtime.win-x64.3.1.12.nupkg.sha512",
+    "C:\\Users\\joanb\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.12\\microsoft.aspnetcore.app.runtime.win-x64.3.1.12.nupkg.sha512",
+    "C:\\Users\\joanb\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.12\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}
